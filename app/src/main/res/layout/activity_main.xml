@@ -92,6 +92,8 @@
         android:text="@string/fblogin"
         android:textColor="@color/bright_blue"
         android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:drawablePadding="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/or"
@@ -109,14 +111,28 @@
 
 
     <TextView
+        android:id="@+id/noAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="105dp"
+        android:text="@string/noAcc"
+        android:textColorHint="@color/silver"
+        app:layout_constraintTop_toBottomOf="@+id/separation"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
         android:id="@+id/signUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="105dp"
         android:text="@string/signUp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/separation"/>
+        android:textColor="@color/dark_blue"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/noAccount"
+        app:layout_constraintStart_toEndOf="@id/noAccount"
+        app:layout_constraintTop_toTopOf="@+id/noAccount" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
