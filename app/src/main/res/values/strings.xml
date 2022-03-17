@@ -6,5 +6,6 @@
     <string name="forgot">Forgotten your login details? Get help with logging in.</string>
     <string name="or">OR</string>
     <string name="fblogin"> Log In With Facebook</string>
+    <string name="signUp">Dont have an account?</string>
 
 </resources>
