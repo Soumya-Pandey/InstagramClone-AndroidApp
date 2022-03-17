@@ -101,7 +101,7 @@
         android:id="@+id/separation"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="@color/darkGrey"
+        android:background="@color/silver"
         android:layout_marginBottom="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
