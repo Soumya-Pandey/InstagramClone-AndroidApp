@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">InstagramClone</string>
+    <string name="app_name">iGlam</string>
     <string name="username">Phone number, email or username</string>
     <string name="password">Password</string>
     <string name="LogIn">Log In</string>
@@ -8,5 +8,8 @@
     <string name="fblogin"> Log In With Facebook</string>
     <string name="noAcc">Dont have an account?</string>
     <string name="signUp">Sign Up.</string>
+
+    <string name="facebook_app_id">[APP_ID]</string>
+    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
 
 </resources>
