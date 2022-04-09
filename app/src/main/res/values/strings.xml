@@ -6,7 +6,7 @@
     <string name="forgot">Forgotten your login details? Get help with logging in.</string>
     <string name="or">OR</string>
     <string name="fblogin"> Log In With Facebook</string>
-    <string name="noAcc">Dont have an account?</string>
+    <string name="noAcc">Don\'t have an account?</string>
     <string name="signUp">Sign Up.</string>
 
     <string name="facebook_app_id">[APP_ID]</string>

@@ -26,7 +26,7 @@
 
         <EditText
             android:id="@+id/username"
-            android:background="@drawable/background1"
+            android:background="@drawable/name_box"
             android:layout_width="350dp"
             android:padding="5dp"
             android:layout_height="50dp"
@@ -42,7 +42,7 @@
         <EditText
             android:id="@+id/password"
             android:layout_width="350dp"
-            android:background="@drawable/background1"
+            android:background="@drawable/name_box"
             android:padding="5dp"
             android:layout_height="50dp"
             android:textColor="#808080"
