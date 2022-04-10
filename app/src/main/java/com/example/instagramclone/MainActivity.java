@@ -2,6 +2,7 @@ package com.example.instagramclone;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -68,7 +69,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void facebookLogin(){
-        binding.facebook.setOnClickListener(v -> LoginManager.getInstance().logInWithReadPermissions(MainActivity.this, Arrays.asList("public_profile")));
+        binding.facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                LoginManager.getInstance().logInWithReadPermissions(MainActivity.this, Arrays.asList("public_profile"));
+            }
+        });
     }
 
 

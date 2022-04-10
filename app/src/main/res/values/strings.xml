@@ -13,8 +13,8 @@
     <string name="reels">Reels</string>
     <string name="instagramlogo">instagramLogo</string>
 
-    <string name="facebook_app_id">[APP_ID]</string>
-    <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+    <string name="facebook_app_id">763382444566282</string>
+    <string name="fb_login_protocol_scheme">fb763382444566282</string>
     <string name="facebook_client_token">56789</string>
 
 
