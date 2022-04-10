@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">iGlam</string>
+    <string name="app_name">Instagram</string>
     <string name="username">Phone number, email or username</string>
     <string name="password">Password</string>
     <string name="LogIn">Log In</string>
@@ -8,8 +8,13 @@
     <string name="fblogin"> Log In With Facebook</string>
     <string name="noAcc">Don\'t have an account?</string>
     <string name="signUp">Sign Up.</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="reels">Reels</string>
 
     <string name="facebook_app_id">[APP_ID]</string>
     <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
+    <string name="instagramlogo">instagramLogo</string>
+    <string name="reelks">reelks</string>
 
 </resources>

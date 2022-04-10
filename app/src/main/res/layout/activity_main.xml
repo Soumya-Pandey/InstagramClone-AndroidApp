@@ -22,7 +22,8 @@
             android:src="@drawable/ic_instagram_wordmark"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/instaLogo" />
+            app:layout_constraintTop_toBottomOf="@+id/instaLogo"
+            android:contentDescription="@string/instagramlogo" />
 
         <EditText
             android:id="@+id/username"
