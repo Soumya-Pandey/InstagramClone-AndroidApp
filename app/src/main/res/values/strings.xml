@@ -11,10 +11,11 @@
     <string name="home">Home</string>
     <string name="search">Search</string>
     <string name="reels">Reels</string>
+    <string name="instagramlogo">instagramLogo</string>
 
     <string name="facebook_app_id">[APP_ID]</string>
     <string name="fb_login_protocol_scheme">fb[APP_ID]</string>
-    <string name="instagramlogo">instagramLogo</string>
-    <string name="reelks">reelks</string>
+    <string name="facebook_client_token">56789</string>
+
 
 </resources>
