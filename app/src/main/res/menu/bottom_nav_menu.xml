@@ -8,17 +8,27 @@
         android:enabled="true"
         android:icon ="@drawable/ic_baseline_home_24"
         app:showAsAction="ifRoom"/>
+
     <item
         android:id="@+id/home"
         android:title="@string/search"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_search_24"
         app:showAsAction="ifRoom"/>
+
     <item
         android:id="@+id/settings"
         android:title="@string/reels"
         android:enabled="true"
         android:icon="@drawable/ic_instagram_reels"
         app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/heart"
+        android:title="@string/reels"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_favorite_border_24"
+        app:showAsAction="ifRoom"/>
+
 
 </menu>

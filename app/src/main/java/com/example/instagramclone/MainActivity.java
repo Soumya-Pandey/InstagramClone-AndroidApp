@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         init();
         facebookLogin();
+
+
         callbackManager = CallbackManager.Factory.create();
         LoginManager.getInstance().registerCallback(callbackManager,
                 new FacebookCallback<LoginResult>() {
